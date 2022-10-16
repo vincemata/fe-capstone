@@ -1,0 +1,21 @@
+#navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background-color:#1a1a1a ;
+    padding: 0 100px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    transition: 0.5S;
+}
+#navbar a{
+    color: white;
+    text-decoration: none;
+    margin-left: 3%;
+}
+.tagline .details p{
+    margin-top: 100px;
+}
+

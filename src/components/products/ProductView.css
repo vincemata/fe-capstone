@@ -1,0 +1,77 @@
+.wrapper-configurator {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f8f4f4;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .card-configurator{
+    height: 60vh;
+    border-radius: 2px;
+    box-shadow: 20px 40px 33px rgba(0,0,0,0.3);
+    padding: 2rem;
+    width: 35vw;
+    background-color:  white;
+    color: black;
+  
+  }
+  
+  .configurator-canvas {
+    width: 50vw;
+    height: 60vh;
+    background:#f8f4f4;    
+  }
+
+  .canvas-view{
+    height: 750px;
+    position: relative;
+  }
+
+
+ 
+  .colors-container{
+  display:flex;
+  flex-direction:row;
+justify-content: space-between;
+  }
+  
+  .colors div {padding:8px;}
+  
+  input[type=color]{
+    height: 50px;
+    width: 60px;
+  }
+  
+  label{
+    display: block;
+    font-weight: 1000;
+  }
+  
+  .color-parts{
+  margin-top: 20px;
+  text-align: center;
+  
+  }
+  
+  .card-configurator h2{
+    text-align: center;
+  }
+
+  .card-configurator .product-name, .card-configurator .product-price{
+    font-size: 20px;
+    font-weight: 1000;
+    margin-top: 20px;
+  }
+  .card-configurator .product-price{
+    color: #81d742;
+  }
+  .add-to-cart-btn{
+    color: white;
+    background-color: black;
+    font-weight: 700;
+    padding: 10px 30px;
+    margin-top: 10%;
+  }

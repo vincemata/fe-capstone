@@ -1,0 +1,57 @@
+/* .wrapper-configurator {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #f8f4f4;
+  color:white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card-configurator{
+  height: 60vh;
+  border-radius: 2px;
+  box-shadow: 20px 40px 33px rgba(0,0,0,0.3);
+  padding: 2rem;
+  width: 35vw;
+  background-color:  white;
+  color: black;
+
+}
+
+.configurator-canvas {
+  width: 50vw;
+  height: 60vh;
+  background:#f8f4f4;
+  border-radius: 0px;
+  margin-bottom:20px;
+  border:1px solid red;
+
+}
+
+.colors {
+display:flex;
+flex-direction:row;
+}
+
+.colors div {padding:8px;}
+
+input[type=color]{
+  height: 50px;
+  width: 80px;
+}
+
+label{
+  display: block;
+  font-weight: 1000;
+}
+
+.color-parts{
+margin: 10px;
+text-align: center;
+
+}
+
+.card-configurator h2{
+  text-align: center;
+} */
